@@ -7,7 +7,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSpr
     info.changeScoreBy(1)
     info.startCountdown(3)
 })
-info.onScore(5, function () {
+info.onScore(20, function () {
     game.gameOver(true)
 })
 let mySprite20260408T093108242Z: Sprite = null

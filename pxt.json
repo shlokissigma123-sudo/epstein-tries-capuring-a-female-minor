@@ -4,7 +4,8 @@
     "dependencies": {
         "device": "*",
         "arcade-story": "github:microsoft/arcade-storytelling#v1.0.3",
-        "storyboard": "*"
+        "storyboard": "*",
+        "multiplayer": "*"
     },
     "files": [
         "main.blocks",
@@ -18,7 +19,7 @@
         "test.ts"
     ],
     "targetVersions": {
-        "target": "4.0.12",
+        "target": "4.0.14",
         "targetId": "arcade"
     },
     "supportedTargets": [
